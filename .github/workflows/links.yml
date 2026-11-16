@@ -20,7 +20,8 @@ jobs:
         id: lychee
         uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
         with:
-          args: --no-progress --max-retries 3 --timeout 30 --accept 200,429 README.md
+          # LexBrowser answers 500 to GitHub runners but 200 from Italy (checked 16.11.2026), so it is skipped here.
+          args: --no-progress --max-retries 3 --timeout 30 --accept 200,429 --exclude lexbrowser.provinz.bz.it README.md
           fail: false
 
       - name: Open issue for broken links
