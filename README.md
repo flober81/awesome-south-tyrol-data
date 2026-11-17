@@ -78,6 +78,14 @@ curl -o sta-gtfs.zip 'https://gtfs.api.opendatahub.com/v1/dataset/sta-time-table
 
 - [Wetter Südtirol](https://wetter.provinz.bz.it) – Official weather service of the province.
   `Web`
+- [Weather service API](https://data.civis.bz.it/dataset/southtyrolean-weatherservice-weathersouthtyrol) – The provincial weather forecast as data, for example the [daily bulletin](https://api-weather.services.siag.it/api/v2/bulletin?format=json&lang=de) (replace `de` with `it` or `en`). Further datasets of the weather service cover districts, precipitation radar and current station values. The forecast is also available through the Open Data Hub Tourism API (`/v1/Weather`).
+  `API` · JSON, XML · licence per dataset: forecast CC BY, radar and stations CC0 · `no key`
+- [Weather and hydrographic measurements](https://data.civis.bz.it/dataset/misure-meteo-e-idrografiche) – Stations, sensors and time series of the provincial weather and river gauge network, for example the [station list](https://geoservices.buergernetz.bz.it/services/meteo/v1/stations).
+  `API` · GeoJSON, JSON · CC0 · `no key`
+- [Air quality web services](https://data.civis.bz.it/dataset/situazione-dell-aria) – Air quality and radioactivity measurements: stations, sensors and time series. The endpoints are listed in the dataset.
+  `API` · JSON · CC0 · `no key`
+- [Pollen web services](https://data.civis.bz.it/dataset/southtyrolean-pollen-webservices) – Pollen bulletin, pollen types and yearly archives per station.
+  `API` · JSON · CC0 · `no key`
 - [Civil protection datasets](https://data.civis.bz.it/organization/southtyrolean-civil-protection-agency) – 15 datasets of the Agency for Civil Protection in the Open Data Portal.
   `Download` · JSON, XML, XLSX, PDF · CC0 or CC BY per dataset · `no key`
 - [Nature and landscape datasets](https://data.civis.bz.it/organization/pab-natura-paesaggio-e-sviluppo-del-territorio) – 47 datasets of the provincial department for nature, landscape and spatial development, mostly map layers.
@@ -138,8 +146,8 @@ no position on naming.
 ## Contributing
 
 Pull requests welcome. Each entry: name, link, one sentence on what it offers, then access, format, licence and key as stated
-by the source. Only free, publicly reachable sources.
+by the source. Only free, publicly reachable sources. Details in [contributing.md](contributing.md).
 
 ## Licence
 
-[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) — maintained by Florian Berger ([Berger+Team](https://berger.team)), Bolzano, for [btlabs Core](https://btlabs.dev/en).
+[CC0 1.0](LICENSE) — maintained by Florian Berger ([Berger+Team](https://berger.team)), Bolzano, for [btlabs Core](https://btlabs.dev/en).
