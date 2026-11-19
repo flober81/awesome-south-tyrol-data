@@ -1,6 +1,6 @@
 # Awesome South Tyrol Data [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of open data sources, APIs and tools for South Tyrol (Südtirol / Alto Adige), Italy.
+> Open data, APIs and tools for South Tyrol (Südtirol / Alto Adige), an autonomous province in northern Italy.
 >
 > Offene Daten, Schnittstellen und Werkzeuge für Südtirol · Dati aperti, API e strumenti per l'Alto Adige
 
@@ -48,8 +48,8 @@ curl -o sta-gtfs.zip 'https://gtfs.api.opendatahub.com/v1/dataset/sta-time-table
 
 - [Open Data Hub](https://opendatahub.com) – Regional open data platform run by NOI Techpark for tourism, mobility and more. [Docs](https://docs.opendatahub.com) · [Data Browser](https://databrowser.opendatahub.com) · [Source code](https://github.com/noi-techpark)
   `API` · JSON · licence per record · `no key` for most data, anonymous access is rate-limited · OpenAPI/Swagger docs, CLI and R package
-- [Open Data Portal South Tyrol](https://data.civis.bz.it) – CKAN catalogue of the Autonomous Province of Bozen/Bolzano, about 930 datasets, with the standard [CKAN API](https://data.civis.bz.it/api/3/action/package_search). Also reachable as dati.retecivica.bz.it.
-  `API` `Download` `OGC` · WMS/WFS, PDF, CSV, XLS, JSON · licence per dataset, about 9 in 10 under CC0 · `no key` · full-text search finds Italian terms (`acqua`), German ones often return nothing
+- [Open Data Portal South Tyrol](https://data.civis.bz.it) – CKAN catalogue of the Autonomous Province of Bozen/Bolzano, with the standard [CKAN API](https://data.civis.bz.it/api/3/action/package_search). Also reachable as dati.retecivica.bz.it.
+  `API` `Download` `OGC` · WMS/WFS, PDF, CSV, XLS, JSON · licence per dataset, mostly CC0 · `no key` · full-text search finds Italian terms (`acqua`), German ones often return nothing
 
 ## Tourism and accommodation
 
@@ -86,9 +86,9 @@ curl -o sta-gtfs.zip 'https://gtfs.api.opendatahub.com/v1/dataset/sta-time-table
   `API` · JSON · CC0 · `no key`
 - [Pollen web services](https://data.civis.bz.it/dataset/southtyrolean-pollen-webservices) – Pollen bulletin, pollen types and yearly archives per station.
   `API` · JSON · CC0 · `no key`
-- [Civil protection datasets](https://data.civis.bz.it/organization/southtyrolean-civil-protection-agency) – 15 datasets of the Agency for Civil Protection in the Open Data Portal.
+- [Civil protection datasets](https://data.civis.bz.it/organization/southtyrolean-civil-protection-agency) – Datasets of the Agency for Civil Protection in the Open Data Portal.
   `Download` · JSON, XML, XLSX, PDF · CC0 or CC BY per dataset · `no key`
-- [Nature and landscape datasets](https://data.civis.bz.it/organization/pab-natura-paesaggio-e-sviluppo-del-territorio) – 47 datasets of the provincial department for nature, landscape and spatial development, mostly map layers.
+- [Nature and landscape datasets](https://data.civis.bz.it/organization/pab-natura-paesaggio-e-sviluppo-del-territorio) – Datasets of the provincial department for nature, landscape and spatial development, mostly map layers.
   `OGC` · WMS, WFS, GeoTIFF · mostly CC0 · `no key`
 - [Avalanche report Euregio](https://avalanche.report) – Daily avalanche bulletin for Tyrol, South Tyrol and Trentino. The latest bulletin is also published as [JSON in the CAAML v6 standard](https://avalanche.report/bulletins/latest/EUREGIO_en_CAAMLv6.json) (replace `en` with `de` or `it`).
   `Web` `API` · JSON (CAAML v6) · `no key`
@@ -97,23 +97,27 @@ curl -o sta-gtfs.zip 'https://gtfs.api.opendatahub.com/v1/dataset/sta-time-table
 
 ## Statistics and municipalities
 
-- [ASTAT](https://astat.provinz.bz.it) – Provincial statistics institute: population, economy, tourism. Some tables are also in the Open Data Portal.
+- [ASTAT](https://astat.provinz.bz.it) – Provincial statistics institute: population, economy, tourism.
   `Web` `Download`
+- [ASTAT datasets](https://data.civis.bz.it/organization/provincia-autonoma-di-bolzano-alto-adige-astat) – Tables of the statistics institute in the Open Data Portal, for example labour market, agriculture and consumer prices.
+  `Download` · XLS, ODS, CSV · CC BY · `no key`
 - [ISTAT municipality codes](https://www.istat.it/classificazione/codici-dei-comuni-delle-province-e-delle-regioni/) – Official codes for all Italian municipalities, including the 116 in South Tyrol.
   `Download` · XLSX · CC BY 4.0 · `no key`
+- [City of Merano datasets](https://data.civis.bz.it/organization/comune-merano-urbanistica-ed-edilizia-privata) – Datasets of the city of Merano (Meran) in the Open Data Portal, for example budgets, road accidents and district heating consumption.
+  `Download` `OGC` · CSV, PDF, WMS · licence per dataset: CC BY, CC BY-ND or not stated · `no key`
 
 ## Health
 
-- [Provincial health department datasets](https://data.civis.bz.it/organization/provincia-autonoma-di-bolzano-alto-adige-sanita) – 55 datasets of the provincial health department in the Open Data Portal.
+- [Provincial health department datasets](https://data.civis.bz.it/organization/provincia-autonoma-di-bolzano-alto-adige-sanita) – Datasets of the provincial health department in the Open Data Portal.
   `Download` · CSV, PDF · CC0 · `no key`
-- [South Tyrolean Health Service datasets](https://data.civis.bz.it/organization/southtyrolean-health-agency) – 6 datasets of the South Tyrolean Health Service.
+- [South Tyrolean Health Service datasets](https://data.civis.bz.it/organization/southtyrolean-health-agency) – Datasets of the South Tyrolean Health Service in the Open Data Portal.
   `Download` · JSON, CSV, XLS, XML · mostly CC0 · `no key`
 
 ## Law and administration
 
 - [LexBrowser](https://lexbrowser.provinz.bz.it) – Provincial laws and regulations.
   `Web`
-- [Public procurement datasets](https://data.civis.bz.it/organization/southtyrolean-agency-for-public-contracts) – 23 datasets of the Agency for Public Contracts.
+- [Public procurement datasets](https://data.civis.bz.it/organization/southtyrolean-agency-for-public-contracts) – Datasets of the Agency for Public Contracts in the Open Data Portal.
   `Download` · XLS, XML, ODS, PDF · CC0 · `no key`
 
 ## Language resources
@@ -139,15 +143,7 @@ no position on naming.
 ## Projects built on this data
 
 - [tyrolean-map](https://github.com/simon04/tyrolean-map) – Frontend to maps published by Land Tirol and South Tyrol as open government data.
-- [MonalisR](https://github.com/mattia6690/MonalisR) – R package to access environmental and meteorological data in South Tyrol.
 - [South-Tyrol-Trails](https://github.com/bmattivi03/South-Tyrol-Trails) – Hiking and cycling route explorer built on the Open Data Hub.
 - [Open Data Hub use cases](https://opendatahub.com/use-cases/) – Companies and projects that use Open Data Hub data.
 
-## Contributing
-
-Pull requests welcome. Each entry: name, link, one sentence on what it offers, then access, format, licence and key as stated
-by the source. Only free, publicly reachable sources. Details in [contributing.md](contributing.md).
-
-## Licence
-
-[CC0 1.0](LICENSE) — maintained by Florian Berger ([Berger+Team](https://berger.team)), Bolzano, for [btlabs Core](https://btlabs.dev/en).
+Maintained by Florian Berger ([Berger+Team](https://berger.team)), Bolzano, for [btlabs Core](https://btlabs.dev/en). How to suggest a source: [contributing.md](contributing.md).
