@@ -13,7 +13,7 @@ Suggestions are welcome, as a pull request or as an issue with the link.
 Add it to the matching section and keep the format:
 
 ```
-- [Name](link) – One sentence on what it offers.
+- [Name](link) - One sentence on what it offers.
   `Access` · formats · licence · key
 ```
 
