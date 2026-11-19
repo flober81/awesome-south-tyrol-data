@@ -14,7 +14,7 @@ Add it to the matching section and keep the format:
 
 ```
 - [Name](link) - One sentence on what it offers.
-  `Access` · formats · licence · key
+  `Access` · formats · licence · key.
 ```
 
 - **Access:** `API`, `Download`, `OGC` or `Web`.

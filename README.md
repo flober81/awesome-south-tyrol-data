@@ -47,85 +47,85 @@ curl -o sta-gtfs.zip 'https://gtfs.api.opendatahub.com/v1/dataset/sta-time-table
 ## Data portals
 
 - [Open Data Hub](https://opendatahub.com) - Regional open data platform run by NOI Techpark for tourism, mobility and more. [Docs](https://docs.opendatahub.com) · [Data Browser](https://databrowser.opendatahub.com) · [Source code](https://github.com/noi-techpark)
-  `API` · JSON · licence per record · `no key` for most data, anonymous access is rate-limited · OpenAPI/Swagger docs, CLI and R package
+  `API` · JSON · licence per record · `no key` for most data, anonymous access is rate-limited · OpenAPI/Swagger docs, CLI and R package.
 - [Open Data Portal South Tyrol](https://data.civis.bz.it) - CKAN catalogue of the Autonomous Province of Bozen/Bolzano, with the standard [CKAN API](https://data.civis.bz.it/api/3/action/package_search). Also reachable as dati.retecivica.bz.it.
-  `API` `Download` `OGC` · WMS/WFS, PDF, CSV, XLS, JSON · licence per dataset, mostly CC0 · `no key` · full-text search finds Italian terms (`acqua`), German ones often return nothing
+  `API` `Download` `OGC` · WMS/WFS, PDF, CSV, XLS, JSON · licence per dataset, mostly CC0 · `no key` · full-text search finds Italian terms (`acqua`), German ones often return nothing.
 
 ## Tourism and accommodation
 
 - [Open Data Hub Tourism API](https://tourism.api.opendatahub.com/v1) - Accommodation, points of interest, events and activities.
-  `API` · JSON · licence per record: entries from LTS (the South Tyrolean tourism association) under CC0, other sources under CC BY or CC BY-SA · `no key` · texts in German, Italian, English and more
+  `API` · JSON · licence per record: entries from LTS (the South Tyrolean tourism association) under CC0, other sources under CC BY or CC BY-SA · `no key` · texts in German, Italian, English and more.
 
 ## Mobility
 
 - [Open Data Hub GTFS API](https://gtfs.api.opendatahub.com) - Public transport timetables of STA (bus, train, cable cars) in the GTFS standard, with realtime feeds (GTFS-RT). Also SkyAlps flights and carpooling trips.
-  `API` `Download` · GTFS, GTFS-RT, JSON · CC0 · `no key`
+  `API` `Download` · GTFS, GTFS-RT, JSON · CC0 · `no key`.
 - [Open Data Hub Mobility API](https://mobility.api.opendatahub.com) - Time series for parking, e-charging, traffic, bike sharing and more.
-  `API` · JSON · licence per data origin · `no key`
+  `API` · JSON · licence per data origin · `no key`.
 - [südtirolmobil](https://www.suedtirolmobil.info) - Journey planner and public transport information for travellers.
-  `Web`
+  `Web`.
 
 ## Maps and geodata
 
 - [Geoportal South Tyrol](https://geoportale.retecivica.bz.it) - Official geodata of the province. The map services are listed in the [Open Data Portal](https://data.civis.bz.it).
-  `OGC` · WMS, WFS, WCS · licence per dataset, mostly CC0
+  `OGC` · WMS, WFS, WCS · licence per dataset, mostly CC0.
 - [MapView GeoBrowser](https://mapview.civis.bz.it) - Map viewer with the GeoCatalogue, combine layers and export maps.
-  `Web`
+  `Web`.
 - [OpenStreetMap: Alto Adige](https://wiki.openstreetmap.org/wiki/Alto_Adige) - Community page for mapping South Tyrol, with local conventions and import notes.
-  `Web` · OpenStreetMap data under ODbL
+  `Web` · OpenStreetMap data under ODbL.
 
 ## Weather, avalanches and environment
 
 - [Wetter Südtirol](https://wetter.provinz.bz.it) - Official weather service of the province.
-  `Web`
+  `Web`.
 - [Weather service API](https://data.civis.bz.it/dataset/southtyrolean-weatherservice-weathersouthtyrol) - The provincial weather forecast as data, for example the [daily bulletin](https://api-weather.services.siag.it/api/v2/bulletin?format=json&lang=de) (replace `de` with `it` or `en`). Further datasets of the weather service cover districts, precipitation radar and current station values. The forecast is also available through the Open Data Hub Tourism API (`/v1/Weather`).
-  `API` · JSON, XML · licence per dataset: forecast CC BY, radar and stations CC0 · `no key`
+  `API` · JSON, XML · licence per dataset: forecast CC BY, radar and stations CC0 · `no key`.
 - [Weather and hydrographic measurements](https://data.civis.bz.it/dataset/misure-meteo-e-idrografiche) - Stations, sensors and time series of the provincial weather and river gauge network, for example the [station list](https://geoservices.buergernetz.bz.it/services/meteo/v1/stations).
-  `API` · GeoJSON, JSON · CC0 · `no key`
+  `API` · GeoJSON, JSON · CC0 · `no key`.
 - [Air quality web services](https://data.civis.bz.it/dataset/situazione-dell-aria) - Air quality and radioactivity measurements: stations, sensors and time series. The endpoints are listed in the dataset.
-  `API` · JSON · CC0 · `no key`
+  `API` · JSON · CC0 · `no key`.
 - [Pollen web services](https://data.civis.bz.it/dataset/southtyrolean-pollen-webservices) - Pollen bulletin, pollen types and yearly archives per station.
-  `API` · JSON · CC0 · `no key`
+  `API` · JSON · CC0 · `no key`.
 - [Civil protection datasets](https://data.civis.bz.it/organization/southtyrolean-civil-protection-agency) - Datasets of the Agency for Civil Protection in the Open Data Portal.
-  `Download` · JSON, XML, XLSX, PDF · CC0 or CC BY per dataset · `no key`
+  `Download` · JSON, XML, XLSX, PDF · CC0 or CC BY per dataset · `no key`.
 - [Nature and landscape datasets](https://data.civis.bz.it/organization/pab-natura-paesaggio-e-sviluppo-del-territorio) - Datasets of the provincial department for nature, landscape and spatial development, mostly map layers.
-  `OGC` · WMS, WFS, GeoTIFF · mostly CC0 · `no key`
+  `OGC` · WMS, WFS, GeoTIFF · mostly CC0 · `no key`.
 - [Avalanche report Euregio](https://avalanche.report) - Daily avalanche bulletin for Tyrol, South Tyrol and Trentino. The latest bulletin is also published as [JSON in the CAAML v6 standard](https://avalanche.report/bulletins/latest/EUREGIO_en_CAAMLv6.json) (replace `en` with `de` or `it`).
-  `Web` `API` · JSON (CAAML v6) · `no key`
+  `Web` `API` · JSON (CAAML v6) · `no key`.
 - [Eurac Environmental Data Platform](https://edp-portal.eurac.edu) - Environmental and climate research data from Eurac Research.
-  `Download` · licence per dataset
+  `Download` · licence per dataset.
 
 ## Statistics and municipalities
 
 - [ASTAT](https://astat.provinz.bz.it) - Provincial statistics institute: population, economy, tourism.
-  `Web` `Download`
+  `Web` `Download`.
 - [ASTAT datasets](https://data.civis.bz.it/organization/provincia-autonoma-di-bolzano-alto-adige-astat) - Tables of the statistics institute in the Open Data Portal, for example labour market, agriculture and consumer prices.
-  `Download` · XLS, ODS, CSV · CC BY · `no key`
+  `Download` · XLS, ODS, CSV · CC BY · `no key`.
 - [ISTAT municipality codes](https://www.istat.it/classificazione/codici-dei-comuni-delle-province-e-delle-regioni/) - Official codes for all Italian municipalities, including the 116 in South Tyrol.
-  `Download` · XLSX · CC BY 4.0 · `no key`
+  `Download` · XLSX · CC BY 4.0 · `no key`.
 - [City of Merano datasets](https://data.civis.bz.it/organization/comune-merano-urbanistica-ed-edilizia-privata) - Datasets of the city of Merano (Meran) in the Open Data Portal, for example budgets, road accidents and district heating consumption.
-  `Download` `OGC` · CSV, PDF, WMS · licence per dataset: CC BY, CC BY-ND or not stated · `no key`
+  `Download` `OGC` · CSV, PDF, WMS · licence per dataset: CC BY, CC BY-ND or not stated · `no key`.
 
 ## Health
 
 - [Provincial health department datasets](https://data.civis.bz.it/organization/provincia-autonoma-di-bolzano-alto-adige-sanita) - Datasets of the provincial health department in the Open Data Portal.
-  `Download` · CSV, PDF · CC0 · `no key`
+  `Download` · CSV, PDF · CC0 · `no key`.
 - [South Tyrolean Health Service datasets](https://data.civis.bz.it/organization/southtyrolean-health-agency) - Datasets of the South Tyrolean Health Service in the Open Data Portal.
-  `Download` · JSON, CSV, XLS, XML · mostly CC0 · `no key`
+  `Download` · JSON, CSV, XLS, XML · mostly CC0 · `no key`.
 
 ## Law and administration
 
 - [LexBrowser](https://lexbrowser.provinz.bz.it) - Provincial laws and regulations.
-  `Web`
+  `Web`.
 - [Public procurement datasets](https://data.civis.bz.it/organization/southtyrolean-agency-for-public-contracts) - Datasets of the Agency for Public Contracts in the Open Data Portal.
-  `Download` · XLS, XML, ODS, PDF · CC0 · `no key`
+  `Download` · XLS, XML, ODS, PDF · CC0 · `no key`.
 
 ## Language resources
 
 - [bistro](https://bistro.eurac.edu) - Eurac Research terminology system for legal and administrative language in German and Italian.
-  `Web`
+  `Web`.
 - [Istitut Ladin Micurà de Rü](https://www.micura.it/en/) - Institute for the Ladin language, the third official language in parts of South Tyrol. Online [dictionaries](https://www.micura.it/la/dizionars), grammar and a [spell checker](https://www.micura.it/la/sorvisc-online/coretur-ortografich).
-  `Web`
+  `Web`.
 
 Place names in South Tyrol are a sensitive topic. This list only links to official and established sources and takes
 no position on naming.
@@ -133,7 +133,7 @@ no position on naming.
 ## Calendars and holidays
 
 - [Nager.Date public holidays API](https://date.nager.at/api/v3/PublicHolidays/2026/IT) - Italian public holidays. Whit Monday is listed for the region code `IT-32`; in practice it is a holiday in South Tyrol.
-  `API` · JSON · `no key`
+  `API` · JSON · `no key`.
 
 ## Code from public bodies
 
